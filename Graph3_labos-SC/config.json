@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "FCBA"
+  },
+  "text": {
+    "more": "Réseau des 57 organismes de recherche de la filière forêt-bois entre 2009 et 2019 via les thématiques partagées",
+    "intro": "Réseau des 57 organismes de recherche de la filière forêt-bois entre 2009 et 2019 via les thématiques partagées",
+    "title": "Réseau des laboratoires par thématique"
+  },
+  "legend": {
+    "edgeLabel": "Thématiques",
+    "colorLabel": "Cluster",
+    "nodeLabel": "LABORATOIRE ou thématique"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "straight",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 5,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 25
+    },
+    "graphProperties": {
+      "maxEdgeSize": 10,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 2,
+      "maxNodeSize": 40
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
