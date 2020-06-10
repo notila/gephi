@@ -1,0 +1,54 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "FCBA"
+  },"text": {
+    "more": "Réseau international de co-publication des 141 organismes de recherche de la filière forêt-bois entre 2009 et 2019",
+    "intro": "Réseau international de co-publication des 141 organismes de recherche de la filière forêt-bois entre 2009 et 2019",
+    "title": "Réseau international de co-publication"
+  },
+  "legend": {
+    "edgeLabel": "Co-publication",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Organisme"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+"labelSize": "proportional",
+      "defaultEdgeType": "straight",
+"labelSizeRatio": 1.1,
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 7,
+      "defaultLabelHoverColor": "#fff",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 25
+
+    },
+    "graphProperties": {
+      "maxEdgeSize": 15,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 30
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
